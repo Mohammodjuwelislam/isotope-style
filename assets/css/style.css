@@ -1,0 +1,74 @@
+/* isotope-section-start */
+.isotope-manu button {
+	border: none;
+	padding: 10px 20px;
+	font-size: 15px;
+	color: rgb(43, 174, 207);
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: transparent;
+    font-weight: bold;
+    position: relative;
+}
+.isotope-manu button::before{
+    position: absolute;
+    content: " ";
+    left: 18px;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(43, 174, 207);
+    transition: .3s;
+}
+
+.isotope-manu button:hover::before{
+    width: 90%;
+}
+
+.isotope-manu button::after{
+    position: absolute;
+    content: " ";
+    left: 18px;
+    bottom: -7px;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(43, 174, 207);
+    transition: .3s;
+}
+
+.isotope-manu button:hover::after{
+    width: 70%;
+}
+
+.isotope-manu button.active{
+    color: rgb(5, 56, 69);
+}
+
+.isotope-single-item{
+    margin-top: 15px;
+}
+
+.isotope-single-item img {
+	width: 100%;
+}
+
+.isotope-single-item{
+    position: relative;
+}
+
+.isotope-single-item::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    transition: .3s;
+    opacity: 0;
+}
+.isotope-single-item:hover::before{
+    opacity: .4;
+}
+
+/* isotope-section-end */
