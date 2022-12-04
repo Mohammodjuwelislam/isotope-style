@@ -1,10 +1,10 @@
 /* isotope-section-start */
+
 .isotope-manu button {
-	border: none;
+	border: 0 ;
 	padding: 10px 20px;
 	font-size: 15px;
 	color: rgb(43, 174, 207);
-    margin-left: 10px;
     border-radius: 15px;
     background-color: transparent;
     font-weight: bold;
@@ -45,7 +45,6 @@
 }
 
 .isotope-single-item{
-    margin-top: 15px;
 }
 
 .isotope-single-item img {
