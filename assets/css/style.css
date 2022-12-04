@@ -13,7 +13,7 @@
 .isotope-manu button::before{
     position: absolute;
     content: " ";
-    left: 18px;
+    left: 0px;
     bottom: 0;
     width: 0%;
     height: 2px;
@@ -28,7 +28,7 @@
 .isotope-manu button::after{
     position: absolute;
     content: " ";
-    left: 18px;
+    left: 0px;
     bottom: -7px;
     width: 0%;
     height: 2px;
@@ -45,6 +45,7 @@
 }
 
 .isotope-single-item{
+    margin: 10px;
 }
 
 .isotope-single-item img {
